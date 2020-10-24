@@ -17,7 +17,7 @@ def game():
     while Ans!= x:
         print ("============================")    
         print ('ROUND : %s' %count)
-        x = input("Your anser is : ")
+        x = input("Your answer is : ")
         if len(x) != 4:
             print ("Enter 4 numbers.")
             continue
